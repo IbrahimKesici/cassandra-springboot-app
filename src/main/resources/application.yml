@@ -1,0 +1,10 @@
+
+spring:
+  data:
+    cassandra:
+      contact-points: 127.0.0.1 (or your corresponding connection uri)
+      username:
+      password:
+      schema-action: NONE
+      keyspace: default
+      port: 9042
